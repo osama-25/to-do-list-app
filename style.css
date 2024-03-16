@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Afterglow;
+    src: url(Afterglow-Regular.woff);
+}
+
+*{
+    font-family: "Afterglow";
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(12,97,99);
+    background: linear-gradient(90deg, rgba(12,97,99,1) 0%, rgba(11,79,67,1) 49%, rgba(14,55,88,1) 100%);
+}
+
+div{
+    width: 400px;
+    height: 100px;
+    background-color: azure;
+    border: solid;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.inputdiv{
+    position: relative;
+    top: 20px;
+}
+
+.taskdiv{
+    position: relative;
+    height: 300px;
+    top: 25px;
+}
+
+button.input{
+    font-size: 25px;
+    line-height: 0px;
+}
+
+.input{
+    position: relative;
+    top: 27px;
+    left: 30px;
+    color: azure;
+    font-size: large;
+    background-color: black;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+span{
+    margin: 5px;
+    display: block;
+    border: solid;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    background-color: black;
+    color: azure;
+    font-size: large;
+}
+
+p{
+    position: relative;
+    left: 5%;
+    word-wrap: break-word;
+    width: 260px;
+}
+
+.deletebutton{
+    line-height: 0px;
+    float: right;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border: black;
+    border-radius: 30px;
+    color: azure;
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+}
+
+.deletebutton:hover{
+    background-color: gray;
+}
+
+.checkbox{
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border: black;
+    border-radius: 30px;
+    color: azure;
+    font-size: medium;
+    position: relative;
+    bottom: 2px;
+}
+
+.checkbox:hover{
+    background-color: gray;
+}
+
+input[type=text]{
+    border-radius: 30px;
+    text-indent: 10px;
+    top: 27px;
+    left: 25px;
+    width: 300px;
+    height: 40px;
+}
+
+label{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: azure;
+    margin-bottom: -10px;
+}
